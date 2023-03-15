@@ -17,6 +17,9 @@ export function Post() {
 
             <div className={styles.content}>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore, facere a iusto cumque pariatur asperiores expedita quasi modi praesentium dolor mollitia corporis id itaque illum placeat sapiente sed quam nemo.</p>
+                <p>
+                    <a href="">#project</a>
+                </p>
             </div>
         </article>
     )
