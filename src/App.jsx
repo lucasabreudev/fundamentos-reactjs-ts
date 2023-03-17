@@ -15,7 +15,7 @@ const posts = [
     },
     content: [
       { type: 'paragraph', content: 'Olá pessoal, boa noite!' },
-      { type: 'link', content: 'study' }
+      { type: 'link', content: '#study' }
     ],
     publishedAt: new Date('2023-03-16 15:00:00'),
   },
@@ -28,9 +28,9 @@ const posts = [
     },
     content: [
       { type: 'paragraph', content: 'Good evening!' },
-      { type: 'link', content: 'learning_english' }
+      { type: 'link', content: '#learning_english' }
     ],
-    publishedAt: new Date('2022-03-16 17:00:00'),
+    publishedAt: new Date('2023-03-10 17:00:00'),
   }
 ]
 
