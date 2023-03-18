@@ -23,13 +23,13 @@ export function Comment({ content, onDeleteComment }: CommentProps) {
 
     return (
         <div className={styles.comment}>
-            <Avatar hasBorder={false} src="https://avatars.githubusercontent.com/u/99924122?v=4" />
+            <Avatar hasBorder={false} src="https://avatars.githubusercontent.com/u/99924122?v=4" alt="" />
 
             <div className={styles.commentBox}>
                 <div className={styles.commentContent}>
                     <header>
                         <div className={styles.authorAndTime}>
-                            <strong>Lucas</strong>
+                            <strong>Lucas Abreu</strong>
                             <time title="15 de Março às 17h" dateTime="2023-03-15 17:00:10">Cerca de 1h atrás</time>
                         </div>
                         <button onClick={handleDeleteComment} title='Deletar comentário'>
